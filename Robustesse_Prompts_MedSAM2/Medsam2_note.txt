@@ -1,0 +1,39 @@
+python -m venv medsam2_env
+
+medsam2_env\Scripts\activate
+
+python.exe -m pip install --upgrade pip
+
+3. Installer les dépendances nécessaires à MedSAM2
+MedSAM2 utilise :
+
+PyTorch
+MONAI
+SimpleITK
+NumPy / SciPy
+OpenCV
+scikit-image
+tqdm
+nibabel
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+pip install monai
+pip install SimpleITK
+pip install scikit-image
+pip install opencv-python
+pip install nibabel
+pip install tqdm
+pip install matplotlib
+pip install plotly
+
+
+Télécharger MedSAM2 depuis GitHub
+git clone https://github.com/bowang-lab/MedSAM2.git
+cd MedSAM2
+pip install -e .
+
+
+from medsam2 import MedSAM2
+
+model = MedSAM2("weights/medsam2_vit_b.pth")
+print("MedSAM2 chargé avec succès")
