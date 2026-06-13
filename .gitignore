@@ -1,0 +1,43 @@
+#Library MedSAM2
+**/medsam2_env/
+**/medsam_env/
+
+
+# Model files
+*.pth
+*.pt
+*.ckpt
+*.tar
+*.tar.gz
+
+# Data
+BraTS*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs
+*.log
+tboard_logs/
+*.tfevents.*
