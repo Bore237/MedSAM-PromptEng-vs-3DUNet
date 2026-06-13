@@ -116,6 +116,6 @@ Output (segmentation map)
 
 ---
 
-**Auteur** : Segmentation Project  
+**Auteur** : Borel Goudjou  
 **Date** : Décembre 2025  
 **Dataset** : BraTS 2023 Preprocessed (128³ resolution)

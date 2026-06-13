@@ -97,6 +97,5 @@ jupyter notebook segmentation_u_net_v1.ipynb
 ```
 ---
 
-**Auteur** : Segmentation Project  
+**Auteur** : Borel Goudjou 
 **Date** : Mars 2025  
-**Dataset** : BraTS 2023 Preprocessed (128³ resolution)
