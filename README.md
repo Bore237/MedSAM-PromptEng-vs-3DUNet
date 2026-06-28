@@ -1,4 +1,14 @@
 # MedSAM-PromptEng-vs-3DUNet: Interactive Foundation Models (MedSAM) vs. Specialized 3D U-Net
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)
+![MONAI](https://img.shields.io/badge/MONAI-Medical%20AI-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Status](https://img.shields.io/badge/Status-Research-blueviolet)
+![Dataset](https://img.shields.io/badge/Dataset-BraTS-orange)
+![Medical Imaging](https://img.shields.io/badge/Medical-Imaging-success)
+![3D U-Net](https://img.shields.io/badge/Model-3D%20U--Net-informational)
+![MedSAM](https://img.shields.io/badge/Foundation-MedSAM-darkgreen)
 
 Ce dépôt rassemble un écosystème complet d'évaluation et d'entraînement pour la segmentation sémantique volumétrique de tumeurs cérébrales (Gliomes), basé sur les challenges internationaux **BraTS (Brain Tumor Segmentation)**.
 
@@ -97,5 +107,9 @@ jupyter notebook segmentation_u_net_v1.ipynb
 ```
 ---
 
-**Auteur** : Borel Goudjou 
-**Date** : Mars 2025  
+
+## ✍️ Informations Projet
+
+- **Auteur** : Goudjou Borel (Bore237)
+- **Date de réalisation** : Fev 2026
+- **Licence** : MIT 
